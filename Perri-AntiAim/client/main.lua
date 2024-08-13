@@ -14,12 +14,14 @@ CreateThread(function()
         end
         
         Wait(750)
+            
         CreateThread(function()
             while test do
                 SetGameplayCamRelativeRotation(0)
                 Wait(0)
             end
         end)
+            
     end
 end)
 
